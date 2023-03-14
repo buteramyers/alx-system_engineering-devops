@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l  $PATH | egrep -c '^-'
+echo $PATH | tr ':' '\n' | wc -l
