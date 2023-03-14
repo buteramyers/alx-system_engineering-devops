@@ -1,2 +1,2 @@
 #!/bin/bash
-tree  $PATH | tail -1
+ls -l  $PATH | wc -l
